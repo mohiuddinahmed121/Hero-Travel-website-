@@ -235,6 +235,62 @@ nav  li{
     margin-bottom: 100px;
 }
 
+/* deals-discout- section */
+
+.deals-discount-content{
+    text-align: center;
+}
+.deals-discout-section{
+    background-image: url(Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    height: 480px;
+    width: 1170px;
+    margin: 0px auto;
+    padding-top: 60px;
+}
+.deals-discout-section-second{
+    background-image: url(Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    height: 480px;
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.deals-discout-details{
+    height: 340px;
+    width: 539px;
+    background-color: #ffffffd3;
+    border-radius: 15px;
+    margin-left: 520px;
+    color: black;
+    padding: 30px;
+}
+.deals-discout-details-second{
+    height: 340px;
+    width: 539px;
+    background-color: #ffffffd3;
+    border-radius: 15px;
+    margin-left: 60px;
+    color: black;
+    padding: 30px;
+}
+.deal-icon{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+.deal-icon-details p{
+    margin: 0;
+}
+.deal-icon-details{
+    margin-right: 15px;
+    display: flex;
+}
+.packages-btn{
+    margin-left: 700px;
+    margin-bottom: 70px;
+}
+
 /* newsletter-section */
 
 .newsletter-section{
@@ -293,4 +349,30 @@ nav  li{
 }
 .travel-save p{
     font-size: 1.5rem;
+}
+
+/* footer-section */
+.footer-section{
+    height: 502px;
+    width: 100%;
+    text-align: center;
+    background-color: #e0e0f050;
+    margin-top: 70px;
+    gap: 40px;
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.footer-section i{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.footer-section p{
+    margin-top: 20px;
+}
+.footer-section hr{
+    margin: 50px;
 }
